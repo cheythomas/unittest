@@ -1,4 +1,4 @@
-
+//Modified by: Cheyenne Thomas
 //Author: Gordon Griesel
 //Date: July 8, 2017
 //Purpose: Framework for coding exam
@@ -346,7 +346,7 @@ const double UTarr[] = {
 };
 
 
-//#ifdef UNIT_TEST
+#ifdef UNIT_TEST
 void unitTest_vecNormalize(float flt)
 {
     float tolerance = flt;
@@ -382,5 +382,5 @@ void unitTest_vecNormalize(float flt)
     printf("errors found: %d\n", errors);
 
 }
-//#endif
+#endif
 
